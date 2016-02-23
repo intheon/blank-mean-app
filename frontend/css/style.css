@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'coming';
+	font-style: normal;
+	src: url('./fonts/coming.eot');
+	src: url('./fonts/coming.eot?#iefix') format('embedded-opentype'),
+		local('coming'),
+		local('coming'),
+		url('./fonts/coming.woff2') format('woff2'),
+		url('./fonts/coming.woff') format('woff'),
+		url('./fonts/coming.ttf') format('truetype'),
+		url('./fonts/coming.svg#coming') format('svg');
+}
+
+
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	font-family: coming;
+}
+
+.side-bar
+{
+	padding:2%;
+}
+
+.site-title
+{
+	font-size: 2.5em;
+}
+
+.row
+{
+	width: 100%;
+}
+
+.half-column
+{
+	float:left;
+	width:50%;
+}
+
+.main-map
+{
+	float:left;
+	width:60%;
+	height:100vh;
+}
+
+.side-bar
+{
+	float:left;	
+	width:34%;
+	height: 90vh;
+}
+
+.connection-status-wrapper
+{
+	position: absolute;
+	width:33%;
+	text-align: left;
+	bottom:0;
+	padding: 1%;
+	color: #00A19A;
+	background: #D5F3F2;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	opacity:0.5;
+}
+
+.line
+{
+	display: inline-block;
+}
